@@ -11,6 +11,23 @@
     box-shadow: 2px 2px 15px 0px rgb(0 0 0 / 50%);
 }
 
+.card__btn {
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease;
+}
+
+.card__btn:hover {
+    background-color: #00c327;
+    transition: all .3s ease;
+}
+
 .card__visa {
     background-image: linear-gradient(to left bottom, #051937, #012757, #003578, #00449b, #0a52bf);
 }
@@ -20,14 +37,19 @@
 }
 
 .card__amex {
-    background-image: linear-gradient(to left bottom, #030a2d, #00124b, #001469, #001286, #0004a3);
+    background-image: linear-gradient(to left bottom, #030a2d, #010933, #000739, #00053e, #000243);
+}
+
+.flag {
+    display: flex;
+    align-items: center;
 }
 
 .flag .flag__image {
     background-size: contain;
     display: block;
     width: 100px;
-    height: 100px;
+    height: 60px;
     background-repeat: no-repeat;
     margin-left: auto;
 }

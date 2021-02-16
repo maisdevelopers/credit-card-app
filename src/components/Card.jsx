@@ -5,6 +5,7 @@ export default props => {
     return (
         <div className="card card__amex">
             <div className="flag">
+                <button className="card__btn">Editar</button>
                 <span className="flag__image amex"></span>
             </div>
 
